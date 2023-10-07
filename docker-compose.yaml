@@ -4,5 +4,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile  # Assuming your Dockerfile is in the same directory as this compose file
-    image: huimeidvops/rms-docker-img:v1
+    image: huimeidvops/rms-docker-img:v2
     container_name: rms-docker-container
